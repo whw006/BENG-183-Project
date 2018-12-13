@@ -41,14 +41,20 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
 
 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
-   - Reads are mapped to reference genome
+   - The FASTQ files are then matched with the reference genome file
    
+   FASTQ Format:
    ![](./img2.JPG)
    
 2. Determine significance of reads locations based on quantity and uniqueness of each read.
-   - Highly significant locations will have high quantities of reads.
-   - Need to account for reads mapped to more than one location 
+
+   Highly significant locations will have high quantities of reads. These locations are known as "peaks". Before we can confirm the significance of an identifies peak we need to establish a peak threshold and normalize the data.
+   
+   Normalization:
    - Eliminate low quality reads
+   - Account for duplicate reads
+   - Account for background noise
+     -Noise: Random fragments that made it through to sequencing)
    
    From [Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data](#prac)
    > A pivotal analysis for ChIP-seq is to predict the regions of the genome where the ChIPed protein is bound by finding regions with significant numbers of mapped reads (peaks). A fine balance between sensitivity and specificity depends on choosing an appropriate peak-calling algorithm and normalization method [1]
