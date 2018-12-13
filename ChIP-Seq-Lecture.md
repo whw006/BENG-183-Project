@@ -31,6 +31,14 @@ Antibodies specific to target protein are attached and used to isolate sections 
 
 ## Analysis<a name = "analysis"></a>
 
+##### ChIP-Seq Analysis Pipeline:
+```mermaid
+graph LR
+A(Match to Reference Genome)--> B(Quality Control/Peak Calling)
+B --> C(Data Visualization)
+C --> D(Interpret Data)
+
+```
 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
    - Reads are mapped to reference genome
