@@ -3,7 +3,7 @@
 1. [Introduction](#intro)
 2. [Methods](#methods)
 3. [Analysis Pipeline](#analysis)
-4. [References](#analysis)
+4. [References](#ref)
 
 
 ## Introduction <a name="intro"></a>
@@ -30,7 +30,10 @@ In order to conduct ChIP-seq it is necissary to first identify the target transc
 Antibodies specific to target protein are attached and used to isolate sections of DNA that the protein is bound to.
 4. ChIP DNA is purified by reversing the crosslinking of proteins and the DNA is prepped for high-throughput sequencing.
 
+![](./Capture.JPG)
+
 A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2119s91
+
 
 ## Analysis<a name = "analysis"></a>
 
@@ -40,29 +43,36 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
    - Individual reads from sequencing are presented in FASTQ format
    - Reads are mapped to reference genome
    
+   ![](./img2.JPG)
+   
 2. Determine significance of reads locations based on quantity and uniqueness of each read.
    - Highly significant locations will have high quantities of reads.
    - Need to account for reads mapped to more than one location 
    - Eliminate low quality reads
+   
+   From [Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data](#prac)
+   > A pivotal analysis for ChIP-seq is to predict the regions of the genome where the ChIPed protein is bound by finding regions with significant numbers of mapped reads (peaks). A fine balance between sensitivity and specificity depends on choosing an appropriate peak-calling algorithm and normalization method [1]
 
 3. Data Visualization
    - Good data visualization is vital for making inferences about data
    - Easy way is to use a genome browser
    - GIVE allows easy lookup and code generation for ChIP-Seq data
-
+  ![](./img3.JPG)
+  (Fig
 4. Interpreting Data
    - Identify potential binding motif of Transcription Factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
    - Identify evolutionary dynamics as done in this paper by Dominic Schmidt
-https://www.ncbi.nlm.nih.gov/pubmed/20378774
+  ![](./img4.JPG)
 
 
 
 
-## References<a name = "references"></a>
 
-[1] Bailey, Timothy et al. “Practical guidelines for the comprehensive analysis of ChIP-seq data” PLoS computational biology vol. 9,11 (2013): e1003326.
+## References<a name = "ref"></a>
+
+[1] Bailey, Timothy et al. “Practical guidelines for the comprehensive analysis of ChIP-seq data” PLoS computational biology vol. 9,11 (2013): e1003326. <a name = "prac"><a/>
  
 Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3828144
  
