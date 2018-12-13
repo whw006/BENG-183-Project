@@ -2,7 +2,7 @@
 
 1. [Introduction](#intro)
 2. [Methods](#methods)
-3. [Analysis](#analysis)
+3. [Analysis Pipeline](#analysis)
 4. [References](#analysis)
 
 
@@ -21,24 +21,21 @@ This technology was developed as a better alternative to Chip  captures DNA targ
 
 ## Methods<a name="methods"></a>
 
+In order to conduct ChIP-seq it is necissary to first identify the target transcription factor or histone modification you want to study. Once the protein is identified, an antigen specific to the  protein needs to be designed for the immunoprecipitation step. This is crucial for isolating DNA attached to the protein since the antigen is able to bind to the protein and is then easily isolated. 
+
+#### Protocol Overview: 
 1. ChIP-Sequencing is initialized with the crosslinking of proteins to the DNA using formaldehyde.
 2. The nuclei are isolated and lysed then the chromatin is sonicated for fragmentation.
 3. Target DNA is isolated during the  immunoprecipitate step. 
 Antibodies specific to target protein are attached and used to isolate sections of DNA that the protein is bound to.
 4. ChIP DNA is purified by reversing the crosslinking of proteins and the DNA is prepped for high-throughput sequencing.
 
-
+A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2119s91
 
 ## Analysis<a name = "analysis"></a>
 
-##### ChIP-Seq Analysis Pipeline:
-```mermaid
-graph LR
-A(Match to Reference Genome)--> B(Quality Control/Peak Calling)
-B --> C(Data Visualization)
-C --> D(Interpret Data)
 
-```
+
 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
    - Reads are mapped to reference genome
