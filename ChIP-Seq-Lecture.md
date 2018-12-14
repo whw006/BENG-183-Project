@@ -9,7 +9,7 @@
 ## Introduction <a name="intro"></a>
 
 ### What is ChIP-Seq?
-**Ch**romatin **I**mmuno**p**recipitation **Seq**uencing is a procedure that is used to determine the binding sites of DNA transciption factors using immunoprecipitation and high throughput sequencing.
+**Ch**romatin **I**mmuno**p**recipitation **Seq**uencing is a procedure that is used to determine the binding sites of targeted DNA transciption factors using immunoprecipitation and high throughput sequencing.
 
 #### What is is used for?
 Identifying genome-wide DNA binding sites for transcription factors. Allows for easy identification of binding sites of a specific protein target. This requires a protein specific antigen for immunoprecipitation of target the target protein.
@@ -32,7 +32,7 @@ Antibodies specific to target protein are attached and used to isolate sections 
 
 ![](./Capture.JPG)
 
-A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2119s91
+A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2119s91 [3]
 
 
 ## Analysis<a name = "analysis"></a>
