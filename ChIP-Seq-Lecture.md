@@ -8,7 +8,7 @@
 
 ## Introduction <a name="intro"></a>
 
-### What is ChIP-Seq?
+#### What is ChIP-Seq?
 **Ch**romatin **I**mmuno**p**recipitation **Seq**uencing is a procedure that is used to determine the binding sites of targeted DNA transciption factors using immunoprecipitation and high throughput sequencing.
 
 #### What is is used for?
@@ -39,7 +39,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
 
 The analysis of ChIP Sequencing data is relatively straight forward compared to other analysis pipelines. The biggest issue is deciding how to normalize your data to reduce the chances of misidentified binding sites. This is a brief overview of the ChIP-seq analysis pipeline: 
 
-1. Match output file to reference genome
+#### 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
    - The FASTQ files are then matched with the reference genome file
    
@@ -47,7 +47,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    
    ![](./img2.JPG)
    
-2. Determine significance of reads locations based on quantity and uniqueness of each read.
+#### 2. Determine significance of reads locations based on quantity and uniqueness of each read.
 
    Highly significant locations will have high quantities of reads. These locations are known as "peaks". Before we can confirm the significance of an identifies peak we need to establish a peak threshold and normalize the data.
    
@@ -60,7 +60,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    From [Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data](#prac)
    > A pivotal analysis for ChIP-seq is to predict the regions of the genome where the ChIPed protein is bound by finding regions with significant numbers of mapped reads (peaks). A fine balance between sensitivity and specificity depends on choosing an appropriate peak-calling algorithm and normalization method [1]
 
-3. Data Visualization
+#### 3. Data Visualization
    - Good data visualization is vital for making inferences and interpreting data
    - Best way this is done is to use a genome browser
      - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
@@ -68,13 +68,13 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
       - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here [6]](#here).
       
   
-   #### Example: 
+   ##### Example: 
    
    ![](./img5.JPG)
    
    This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
-4. Interpreting Data
+#### 4. Interpreting Data
    - Identify potential binding motif of transcription factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
