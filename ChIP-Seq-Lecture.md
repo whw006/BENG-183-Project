@@ -70,7 +70,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
   
    ##### Example: 
    
-   ![](./img5.JPG)
+    ![](./img5.JPG)
    
    This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
@@ -83,7 +83,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
       - Identify changes in transcription factor binding across different species or cell types. 
       
      
-   Example:
+   ##### Example:
    A study conducted at the Cabridge Research Institute in 2010 by Dominic Schmidt looked at the evolutionary dynamics of transciption factor binding sites accross multiple different species. 
   ![](./img3.JPG)
   
