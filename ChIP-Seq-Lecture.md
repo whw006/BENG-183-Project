@@ -37,7 +37,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
 
 ## Analysis<a name = "analysis"></a>
 
-
+The analysis of ChIP Sequencing data is relatively straight forward compared to other analysis pipelines. The biggest issue is deciding how to normalize your data to reduce the chances of misidentified binding sites. This is a brief overview of the ChIP-seq analysis pipeline: 
 
 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
