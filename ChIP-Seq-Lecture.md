@@ -69,7 +69,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    
    ![](./img5.JPG)
    
-   This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
+   This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser [5]. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
 #### 4. Interpreting Data
    - Identify potential binding motif of transcription factor
