@@ -8,13 +8,13 @@
 
 ## Introduction <a name="intro"></a>
 
-#### What is ChIP-Seq?
+### What is ChIP-Seq?
 **Ch**romatin **I**mmuno**p**recipitation **Seq**uencing is a procedure that is used to determine the binding sites of targeted DNA transciption factors using immunoprecipitation and high throughput sequencing.
 
-#### What is is used for?
-Identifying genome-wide DNA binding sites for transcription factors. Allows for easy identification of binding sites of a specific protein target. This requires a protein specific antigen for immunoprecipitation of target the target protein.
+### What is is used for?
+Identifying genome-wide DNA binding sites for transcription factors. Allows for easy identification of binding sites of a specific target protein. This requires a protein specific antigen for the isolation of the protein and the DNA fragment that it is attached to. 
 
-#### What are the advantages over existing technology?
+### What are the advantages over existing technology?
 
 This technology was developed as a better alternative to Chip-chip. ChIP-seq for the first time allowed for the capture of DNA targets for transcription factors or histone modifications across the entire genome on human cells in a timely and cost effective manner. This technique is regareded as the best way to identify sites DNA-protein interactions of a targeted transcription factor.
 
@@ -23,7 +23,7 @@ This technology was developed as a better alternative to Chip-chip. ChIP-seq for
 
 In order to conduct ChIP-seq it is necissary to first identify the target transcription factor or histone modification you want to study. Once the protein is identified, an antigen specific to the  protein needs to be designed for the immunoprecipitation step. This is crucial for isolating DNA attached to the protein since the antigen is able to bind to the protein and is then easily isolated. 
 
-#### Protocol Overview: 
+### Protocol Overview: 
 1. ChIP-Sequencing is initialized with the crosslinking of proteins to the DNA using formaldehyde.
 2. The nuclei are isolated and lysed then the chromatin is sonicated for fragmentation.
 3. Target DNA is isolated during the  immunoprecipitate step. 
@@ -39,7 +39,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
 
 The analysis of ChIP Sequencing data is relatively straight forward compared to other analysis pipelines. The biggest issue is deciding how to normalize your data to reduce the chances of misidentified binding sites. This is a brief overview of the ChIP-seq analysis pipeline: 
 
-#### 1. Match output file to reference genome
+### 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
    - The FASTQ files are then matched with the reference genome file
    
@@ -47,7 +47,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    
    ![](./img2.JPG)
    
-#### 2. Determine significance of reads locations based on quantity and uniqueness of each read.
+### 2. Determine significance of reads locations based on quantity and uniqueness of each read.
 
    Highly significant locations will have high quantities of reads. These locations are known as "peaks". Before we can confirm the significance of an identifies peak we need to establish a peak threshold and normalize the data.
    
@@ -60,7 +60,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    From [Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data](#prac)
    > A pivotal analysis for ChIP-seq is to predict the regions of the genome where the ChIPed protein is bound by finding regions with significant numbers of mapped reads (peaks). A fine balance between sensitivity and specificity depends on choosing an appropriate peak-calling algorithm and normalization method [1]
 
-#### 3. Data Visualization
+### 3. Data Visualization
    - Good data visualization is vital for making inferences and interpreting data
    - Best way this is done is to use a genome browser
      - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
@@ -71,7 +71,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    
    This is a figure shows the comparison of multiple ChIP-seq data tracks using the UCSC genome browser [5]. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
-#### 4. Interpreting Data
+### 4. Interpreting Data
    - Identify potential binding motif of transcription factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
@@ -80,7 +80,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
       - Identify changes in transcription factor binding across different species or cell types. 
       
      
-   ##### Example:
+   #### Example:
    A study conducted at the Cabridge Research Institute in 2010 by Dominic Schmidt looked at the evolutionary dynamics of transciption factor binding sites accross multiple different species. 
   ![](./img3.JPG)
   
