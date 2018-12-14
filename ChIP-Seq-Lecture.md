@@ -16,7 +16,7 @@ Identifying genome-wide DNA binding sites for transcription factors. Allows for 
 
 #### What are the advantages over existing technology?
 
-This technology was developed as a better alternative to Chip  captures DNA targets for transcription factors or histone modifications across the entire genome and defines transcription factor binding sites.
+This technology was developed as a better alternative to Chip-chip. ChIP-seq for the first time allowed for the capture of DNA targets for transcription factors or histone modifications across the entire genome on human cells in a timely and cost effective manner. This technique is regareded as the best way to identify sites DNA-protein interactions of a targeted transcription factor.
 
 
 ## Methods<a name="methods"></a>
@@ -70,7 +70,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
   
    #### Example: 
    
-   ![](./img3.JPG)
+   ![](./img5.JPG)
    
    This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
