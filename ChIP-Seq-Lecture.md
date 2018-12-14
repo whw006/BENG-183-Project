@@ -37,7 +37,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
 
 ## Analysis<a name = "analysis"></a>
 
-The analysis of ChIP Sequencing data is relatively straight forward compared to other analysis pipelines. The biggest issue is deciding how to normalize your data to reduce the chances of misidentified binding sites. This is a brief overview of the ChIP-seq analysis pipeline: 
+The analysis of ChIP Sequencing data is relatively straight forward compared to other analysis pipelines. The biggest issue is deciding how to normalize your data to reduce the chances of misidentified binding sites. The following is an overview of the ChIP-seq analysis pipeline: 
 
 ### 1. Match output file to reference genome
    - Individual reads from sequencing are presented in FASTQ format
@@ -75,7 +75,7 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    - Identify potential binding motif of transcription factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
-    - Make additional inferences about target protein
+   - Make additional inferences about target protein
       - Identify functions of transcription factor
       - Identify changes in transcription factor binding across different species or cell types. 
       
@@ -92,13 +92,13 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
    The bottom bar in the image shows the 
    > evolutionary conservation measured across 44 vertebrate species, and darker shading represents slower evolution.
   
-   From the figure we can see high amount of evolutionary divergence displayed by this transcription factor. They were able to show that a very small amount of binding sites were conserved between the species that they studied.  After identifying this relationship, these researchers attempted to determine the cause of the evolutionary divergence. 
+   From the figure we can see high amount of evolutionary divergence displayed by this transcription factor. Using this data the researchers were able to show that a very small amount of binding sites were conserved between the species that they studied and most binding sites were unique to each species. After identifying this relationship, these researchers attempted to determine the cause of the evolutionary divergence. 
    
    ![](./img4.JPG)
    
    (Figure 1 from [4])
 
-   This second image shows the binding motifs of two different transcription factors that were tested across multiple different species. It is easy to tell that the binding motif of the transcription factors did not change much between species. This shows that the evolutionary divergence was due to changes in the DNA sequence or configuration itself resulting in the differential binding sites seen across. 
+   This second image shows the binding motifs of two different transcription factors that were tested across multiple different species. It is easy to tell that the binding motif of the transcription factors did not change much between species. This shows that the evolutionary divergence was due to changes in the DNA sequence or configuration itself resulting in the differential binding sites seen across. This is just one potential application for ChIP-seq, but there are many other ways to use this method to discover more about gene regulation.
 
 
 
