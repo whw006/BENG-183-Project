@@ -60,17 +60,27 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
    > A pivotal analysis for ChIP-seq is to predict the regions of the genome where the ChIPed protein is bound by finding regions with significant numbers of mapped reads (peaks). A fine balance between sensitivity and specificity depends on choosing an appropriate peak-calling algorithm and normalization method [1]
 
 3. Data Visualization
-   - Good data visualization is vital for making inferences about data
-   - Easy way is to use a genome browser
+   - Good data visualization is vital for making inferences and interpreting data
+   - Best way this is done is to use a genome browser
+     - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
    - GIVE allows easy lookup and code generation for ChIP-Seq data
-  ![](./img3.JPG)
-  (Fig
+      - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here](#here)
+  
+  ####Example 
+   ![](./img3.JPG)
+  This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
+  
 4. Interpreting Data
    - Identify potential binding motif of Transcription Factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
-   - Identify evolutionary dynamics as done in this paper by Dominic Schmidt
+     
+  #### Example:
+  A study conducted at the Cabridge Research Institute in 2010 by Dominic Schmidt looked at the evolutionary dynamics of transciption factor binding sites accross multiple different species. 
+  ![](./img3.JPG)
+  (Figure 1 from [4])
   ![](./img4.JPG)
+  (Figure 3 from [4])
 
 
 
@@ -97,3 +107,7 @@ Link: https://www.ncbi.nlm.nih.gov/pubmed/20378774
 [5] Zhong. “ChIP Sequencing” Lecture, 16 October 2018.
  
 Link: https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p16
+
+[6] Zhong. "Data Visualization,GIVE" Lecture, 11 November 2018.
+
+Link: https://drive.google.com/file/d/0B8j1ae_cKhUfeHEzS3ZCTkVfSGN1b2FTZGtldHZnY0h3Snhz/view?usp=sharing<a name = "here"><a/>
