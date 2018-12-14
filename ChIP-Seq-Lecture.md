@@ -65,7 +65,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
    - Best way this is done is to use a genome browser
      - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
    - GIVE allows easy lookup and code generation for ChIP-Seq data
-      - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here](#here)
+      - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here [6]](#here).
       
   
    #### Example: 
