@@ -66,11 +66,8 @@ The analysis of ChIP Sequencing data is relatively straight forward compared to 
      - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
    - GIVE allows easy lookup and code generation for ChIP-Seq data
       - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here [6]](#here).
-      
-  
-   ##### Example: 
    
-    ![](./img5.JPG)
+   ![](./img5.JPG)
    
    This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
