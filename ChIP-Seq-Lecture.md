@@ -68,24 +68,40 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
       - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here](#here)
       
   
-   #### Example 
+   #### Example: 
    
    ![](./img3.JPG)
    
    This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
 4. Interpreting Data
-   - Identify potential binding motif of Transcription Factor
+   - Identify potential binding motif of transcription factor
      - Motif: Common binding sequence
      - Importance of each nucleotide is denoted by the size of each letter
+    - Make additional inferences about target protein
+      - Identify functions of transcription factor
+      - Identify changes in transcription factor binding across different species or cell types. 
+      
      
-  #### Example:
-  A study conducted at the Cabridge Research Institute in 2010 by Dominic Schmidt looked at the evolutionary dynamics of transciption factor binding sites accross multiple different species. 
+   Example:
+   A study conducted at the Cabridge Research Institute in 2010 by Dominic Schmidt looked at the evolutionary dynamics of transciption factor binding sites accross multiple different species. 
   ![](./img3.JPG)
-  (Figure 1 from [4])
-  ![](./img4.JPG)
-  (Figure 3 from [4])
+  
+   (Figure 1 from [4])
+  
+   This first image shows
+   >CEBPA binding in vivo in livers isolated from five vertebrate species cross-mapped to the human PCK1 gene locus. A rare ultraconserved binding event is shown surrounded by species-specific and partially-shared binding events. 
+  
+   The bottom bar in the image shows the 
+   > evolutionary conservation measured across 44 vertebrate species, and darker shading represents slower evolution.
+  
+   From the figure we can see high amount of evolutionary divergence displayed by this transcription factor. They were able to show that a very small amount of binding sites were conserved between the species that they studied.  After identifying this relationship, these researchers attempted to determine the cause of the evolutionary divergence. 
+   
+   ![](./img4.JPG)
+   
+   (Figure 1 from [4])
 
+   This second image shows the binding motifs of two different transcription factors that were tested across multiple different species. It is easy to tell that the binding motif of the transcription factors did not change much between species. This shows that the evolutionary divergence was due to changes in the DNA sequence or configuration itself resulting in the differential binding sites seen across. 
 
 
 
