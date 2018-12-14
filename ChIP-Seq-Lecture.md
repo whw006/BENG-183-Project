@@ -44,6 +44,7 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
    - The FASTQ files are then matched with the reference genome file
    
    FASTQ Format:
+   
    ![](./img2.JPG)
    
 2. Determine significance of reads locations based on quantity and uniqueness of each read.
@@ -65,10 +66,13 @@ A full lab protocol for ChIP-seq can be found here: https://currentprotocols.onl
      - There are many genome browsers out there some of the more popular ones include UCSC genome browser and GIVE. 
    - GIVE allows easy lookup and code generation for ChIP-Seq data
       - Using the code template you are able to manipulate your data in a way that suits your needs. More information about give can be found [here](#here)
+      
   
-  ####Example 
+   #### Example 
+   
    ![](./img3.JPG)
-  This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
+   
+   This is a figure shows the comparison of ChIP-seq data using the UCSC genome browser. You can see the differences in the transcription factor binding sights quite easily by comparing the peaks accross each data track. 
   
 4. Interpreting Data
    - Identify potential binding motif of Transcription Factor
